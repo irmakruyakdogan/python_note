@@ -1,0 +1,17 @@
+a = 7
+b = 5
+c = (b * (a // b) + a % b)
+print(c)  #çıktı a'ya eşit olacaktır
+
+x = 7
+x += 2 # x 9 a eşit olur
+x -= 2 # x 5 e eşit olur
+x *= 2 # x 14 e eşit olur
+x /= 2 # x 3.5 e eşit olur
+x //= 2 # x 3 e eşit olur
+x %= 2 # x 1 e eşit olur
+x **= 2 # x 49 a eşit olur
+
+temp = 24
+temp = (temp*1.8) + 32 
+print(temp) # temp yeni değer 75.2 olur
