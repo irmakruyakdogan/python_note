@@ -1,0 +1,23 @@
+abs(-9)   # 9 a eşit olacaktır. sayının mutlak değerini alır.
+
+x = 45
+y = 13
+abs(y - x)    # 32 ye eşit olur
+
+pow(abs(-2), round(4.3))    # 16 ya eşit olur. pow üs almayı sağlar. round ise yuvarlar.
+
+pow(2, 4, 3)    # 1 e eşit olur. çünkü 2 üzeri 4 16 ve 16 nın 3 ile bölümünden kalan 1 dir.
+
+def quadratic (a, b, c, x):
+    first = a * x ** 2
+    second = b * x
+    third = c
+    return first + second + third
+print(quadratic(2, 3, 4, 0.5))    # ax2 + bx + c
+
+def f(x):
+    x = 2 * x
+    return x
+x = 1
+x = f(x + 1) + f(x + 2)
+print(x)    # 10 a eşit olur.
