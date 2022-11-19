@@ -1,0 +1,2 @@
+len("ırmak rüya akdoğan")   # 18 dir len karakter sayısını gösterir. boşluk da bir karakterdir.
+int()
